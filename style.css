@@ -1,0 +1,62 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling with a gradient background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #c1e9f7, #ffffff); /* Light blue to white gradient */
+    color: #222; /* Darker text for better readability */
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center all content on the page */
+}
+
+/* Title styling */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: #007BFF; /* Bright blue for the title */
+}
+
+/* Subheading (Group Members) styling */
+h2 {
+    font-size: 2.5rem;
+    color: #007BFF; /* Bright blue for section titles */
+    margin-bottom: 20px;
+}
+
+/* Group member names */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333; /* Darker text for better readability */
+}
+
+/* Button styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
